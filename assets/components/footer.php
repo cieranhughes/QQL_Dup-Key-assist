@@ -1,5 +1,25 @@
 <footer>
+	<div class="container-fluid footer-color">
+		<div class="row">
+			<div class="col-sm-12 col-md-6 col-lg-3">
 
+			</div>
+		</div>
+
+		<!-- Divider -->
+		<div class="row">
+			<div class="col">
+				<hr />
+			</div>
+		</div>
+
+		<!-- Copyright info -->
+		<div class="row">
+			<div class="col text-center text-secondary">
+				<p>Copyright © 2021 Key Assist, All rights reserved.</p>
+			</div>
+		</div>
+	</div>
 </footer>
 
 <!-- Bootstrap, Popper, jQuery -->

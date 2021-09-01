@@ -1,0 +1,12 @@
+header .nav-color {
+	background-color: green !important;
+}
+
+footer .footer-color {
+	background-color: black !important;
+}
+
+footer hr {
+	color: ghostwhite;
+	background-color: ghostwhite;
+}
