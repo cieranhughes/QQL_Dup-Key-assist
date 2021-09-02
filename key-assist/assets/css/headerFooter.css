@@ -2,6 +2,10 @@ header .nav-color {
 	background-color: green !important;
 }
 
+header .nav-text {
+	color: white !important;
+}
+
 footer .footer-color {
 	background-color: #1b1b1b !important;
 }
@@ -15,6 +19,6 @@ footer a {
 	text-decoration: none;
 }
 
-footer h4,p,a {
+footer h4, footer p, footer a {
 	color: white;
 }
