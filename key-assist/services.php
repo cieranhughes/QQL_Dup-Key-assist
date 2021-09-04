@@ -2,7 +2,7 @@
 <html lang="en">
 
 <?php
-$page_title = '';
+$page_title = 'Service';
 
 //Services Class
 require_once('assets/classes/services_class.php');
