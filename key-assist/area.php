@@ -41,7 +41,6 @@ include('assets/components/head.php');
 					<!-- Text -->
 					<div class="col-sm-12 col-md-6 pt-3">
 						<h1 class="display-5 fs-3 fw-bold"><?php echo $area->name; ?></h1>
-						<h1 class="display-6 fs-5 fw-bold text-tagline"><?php echo $area->tagline; ?></h1>
 						<p class="text-muted"><?php echo $area->description; ?></p>
 					</div>
 					<!-- Image -->
@@ -101,13 +100,39 @@ include('assets/components/head.php');
 			<div class="row">
 				<?php
 				foreach ($area->card_title as $i => $value) {
-					echo '<div class="col-sm-12 col-md-6 col-lg-4"><div class="card" style="width: 18rem;"><div class="card-body">';
-					echo '<h5 class="card-title">' . $value . '</h5>';
-					echo '<p class="card-text">' . $area->card_text[$i] . '</p>';
-					echo '</div></div></div>';
+					if ($area->card_section[$i] == 1) {
+						echo '<div class="col-sm-12 col-md-6 col-lg-4"><div class="card" style="width: 18rem;"><div class="card-body">';
+						echo '<h5 class="card-title">' . $value . '</h5>';
+						echo '<p class="card-text">' . $area->card_text[$i] . '</p>';
+						echo '</div></div></div>';
+					}
 				}
 				?>
+			</div>
+		</div>
 
+		<!-- Template Section -->
+
+		<!-- Section 4 -->
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<h1 class="display-5 fs-4"><?php echo $area->section_4_title ?></h1>
+				</div>
+			</div>
+
+			<!-- Cards -->
+			<div class="row">
+				<?php
+				foreach ($area->card_title as $i => $value) {
+					if ($area->card_section[$i] == 2) {
+						echo '<div class="col-sm-12 col-md-6 col-lg-4"><div class="card" style="width: 18rem;"><div class="card-body">';
+						echo '<h5 class="card-title">' . $value . '</h5>';
+						echo '<p class="card-text">' . $area->card_text[$i] . '</p>';
+						echo '</div></div></div>';
+					}
+				}
+				?>
 			</div>
 		</div>
 	</main>
