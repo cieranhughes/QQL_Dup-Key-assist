@@ -1,0 +1,40 @@
+main {
+	margin-top: 100px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* Home Page */
+main .text-phone {
+	color: #aa1414;
+}
+
+main .img-overlay {
+    background: url(/assets/img/services-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+	color: white;
+    padding-top: 50px;
+}
+
+.call-button {
+	padding-bottom: 15px;
+}
+
+.call-button button {
+	background-color: green;
+}
+
+.card-header {
+	background-color: white;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* Services */
+.background-grey {
+	background-color: #e4e4e4;
+}
+
+.text-tagline {
+	color: #5d4b77;
+}
