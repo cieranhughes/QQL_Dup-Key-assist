@@ -3,9 +3,8 @@
 		<div class="row">
 			<nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-color">
 				<div class="container">
-					<a class="navbar-brand" href="/">
-						<img src="/assets/img/logo.png" alt="logo" width="233px" height="51px" class="d-inline-block align-text-top">
-					</a>
+					<a class="navbar-brand" href="/admin/index.php">
+						Key-Assist Admin </a>
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
@@ -16,12 +15,12 @@
 									Services
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="./service/add.php">Add an Service</a></li>
-									<li><a class="dropdown-item" href="./service/edit.php">Edit Exising Service</a></li>
+									<li><a class="dropdown-item" href="/admin/service/add.php">Add an Service</a></li>
+									<li><a class="dropdown-item" href="/admin/service/edit.php">Edit Exising Service</a></li>
 									<li>
 										<hr class="dropdown-divider">
 									</li>
-									<li><a class="dropdown-item" href="service/info">Service Info</a></li>
+									<li><a class="dropdown-item" href="/admin/service/info">Service Info</a></li>
 								</ul>
 							</li>
 							<li class="nav-item dropdown">

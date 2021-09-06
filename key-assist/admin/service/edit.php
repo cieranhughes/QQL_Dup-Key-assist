@@ -30,10 +30,10 @@ include('../assets/components/head.php');
 			<!--  -->
 			<div class="row">
 				<div class="col">
-					<table class="table table-striped table-hover">
+					<table class="table table-striped">
 						<thead>
 							<tr>
-								<th scope="col">id</th>
+								<th scope="col">ID</th>
 								<th scope="col">Service</th>
 								<th scope="col">Action</th>
 								<th scope="col">Delete</th>
