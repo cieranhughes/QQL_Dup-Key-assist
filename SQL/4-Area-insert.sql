@@ -23,7 +23,8 @@ INSERT INTO
 		point_3,
 		point_4,
 		section_2_title,
-		section_4_title
+		section_4_title,
+		template
 	)
 VALUES
 	(
@@ -36,7 +37,8 @@ VALUES
 		'Our specialists cover any areas in and around Cardiff city centre: North, South, East & West',
 		'Emergency assistance available with our 24 hour locksmiths, no matter what time you call',
 		'I need an emergency locksmith in Cardiff - Why Call Key-Assist?',
-		'Locksmith services in Cardiff'
+		'Locksmith services in Cardiff',
+		1
 	);
 
 /* --------------------------------------------------------------------- */
@@ -79,4 +81,120 @@ VALUES (
 	2,
 	'Immobiliser repairs',
 	'Having problems with the locks on your vehicle and unable to gain access? You could be experiencing problems with your vehicle’s immobiliser. Call Key-Assist now and we’ll locate the nearest car locksmith near you in Cardiff to help solve the problem as soon as possible, no matter how complex.'
+);
+
+/* --------------------------------------------------------------------- */
+/* Bullets - Cardiff */
+/* --------------------------------------------------------------------- */
+INSERT INTO
+	Area_Bullets (area_id, bullet_section, bullet_text)
+VALUES (
+	1,
+	1,
+	'Albany Road'
+),
+(
+	1,
+	1,
+	'Canton'
+),
+(
+	1,
+	1,
+	'Cathays'
+),
+(
+	1,
+	1,
+	'Clifton Street'
+),
+(
+	1,
+	1,
+	'Grangetown'
+),
+(
+	1,
+	1,
+	'Penarth'
+),
+(
+	1,
+	1,
+	'Pen-Y-Lan Road'
+),
+(
+	1,
+	1,
+	'Roath'
+),
+(
+	1,
+	1,
+	'Splott'
+),
+(
+	1,
+	2,
+	'Key stuck in lock/ignition or key snapped'
+),
+(
+	1,
+	2,
+	'The locks on your doors are damaged or won’t work'
+),
+(
+	1,
+	2,
+	'Your remote car key fob isn’t working'
+),
+(
+	1,
+	2,
+	'You have had your vehicle broken into and/or your keys have been stolen'
+),
+(
+	1,
+	2,
+	'Locked out/in your car, van, etc.'
+),
+(
+	1,
+	2,
+	'Locks and keys for vehicle are too old and not secure enough'
+),
+(
+	1,
+	2,
+	'Need replacement keys (copies)'
+);
+
+/* --------------------------------------------------------------------- */
+/* Section Info - Cardiff */
+/* --------------------------------------------------------------------- */
+INSERT INTO
+	Area_Section_Info (area_id, section, type, text)
+VALUES (
+	1,
+	1,
+	't',
+	'Stranded in Cardiff - What areas of the city do our locksmiths cover and what services can they provide?'
+),
+(
+	1,
+	1,
+	'p',
+	'Stranded in Cardiff - What areas of the city do our locksmiths cover and what services can they provide?'
+),
+(
+	1,
+	2,
+	't',
+	'Experiencing one or more of these problems with your locks and/or keys?'
+),
+(
+	1,
+	2,
+	'p',
+	'Our locksmiths have the experience and tools to determine what problem you are experiencing with your car lock, key or door if you are unsure, regardless whether it is listed above or not. Whatever service you require, our professional locksmiths can help you. Call us now to find out more about how we can help you and learn more about locksmith prices in Cardiff. We can get you an affordable quote for the type of service you require, obligation-free.'
 );

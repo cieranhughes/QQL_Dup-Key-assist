@@ -112,6 +112,11 @@ include('assets/components/head.php');
 		</div>
 
 		<!-- Template Section -->
+		<?php
+		if ($area->template == 1) {
+			include('./assets/area-templates/temp1.php');
+		}
+		?>
 
 		<!-- Section 4 -->
 		<div class="container">
