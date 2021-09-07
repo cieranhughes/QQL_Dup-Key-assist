@@ -28,12 +28,7 @@
 									Areas
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="#">Add an Area</a></li>
 									<li><a class="dropdown-item" href="#">Edit Exising Area</a></li>
-									<li>
-										<hr class="dropdown-divider">
-									</li>
-									<li><a class="dropdown-item" href="#">Area Info</a></li>
 								</ul>
 							</li>
 						</ul>

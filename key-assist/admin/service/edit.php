@@ -27,7 +27,9 @@ include('../assets/components/head.php');
 				</div>
 			</div>
 
-			<!--  -->
+			<!-- Success Message -->
+
+			<!-- Table -->
 			<div class="row">
 				<div class="col">
 					<table class="table table-striped">
@@ -42,13 +44,15 @@ include('../assets/components/head.php');
 						<tbody>
 
 							<?php
+							
 							$sql = "SELECT service_id, name FROM `Services`";
 							$stmt = mysqli_stmt_init($dbconnect);
 							mysqli_stmt_prepare($stmt, $sql);
 							mysqli_stmt_execute($stmt);
 							$results = mysqli_stmt_get_result($stmt);
 							while ($r = mysqli_fetch_array($results)) {
-								echo '<tr><th scope="row">' . $r['service_id'] . '</th><td>' . $r['name'] . '</td><td><a class="btn btn-warning" href="#" role="button">Edit</a></td><td><a class="btn btn-danger" href="#" role="button">Delete</a></td></tr>';
+								$msgString = "'are you sure you want to delete?'";
+								echo '<tr><th scope="row">' . $r['service_id'] . '</th><td>' . $r['name'] . '</td><td><a class="btn btn-warning" href="#" role="button">Edit</a></td><td><a class="btn btn-danger" href="/admin/service/delete-handler.php?id=' . $r['service_id'] . '" onClick="return confirm(' . $msgString . ');">Delete</a></td></tr>';
 							}
 							mysqli_stmt_close($stmt);
 							?>
