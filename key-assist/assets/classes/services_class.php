@@ -25,9 +25,10 @@ class Services
 		//Connection File
 		include('assets/config/db_connect.php');
 
-		$sql = "SELECT * FROM Services";
+		$sql = "SELECT * FROM Services WHERE service_id=?";
 		$stmt = mysqli_stmt_init($dbconnect);
 		mysqli_stmt_prepare($stmt, $sql);
+		mysqli_stmt_bind_param($stmt, "i", $id);
 		mysqli_stmt_execute($stmt);
 		$results = mysqli_stmt_get_result($stmt);
 		while ($r = mysqli_fetch_array($results)) {

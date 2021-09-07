@@ -115,6 +115,16 @@ include('assets/components/head.php');
 		<?php
 		if ($area->template == 1) {
 			include('./assets/area-templates/temp1.php');
+		}elseif ($area->template == 2) {
+			include('./assets/area-templates/temp2.php');
+		}elseif ($area->template == 3) {
+			include('./assets/area-templates/temp3.php');
+		}elseif ($area->template == 4) {
+			include('./assets/area-templates/temp4.php');
+		}elseif ($area->template == 5) {
+			include('./assets/area-templates/temp5.php');
+		}elseif ($area->template == 6) {
+			include('./assets/area-templates/temp6.php');
 		}
 		?>
 
