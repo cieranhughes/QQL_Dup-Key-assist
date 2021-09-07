@@ -1,3 +1,5 @@
+/*-----------------------------------------------------------------------------------*/
+/* Header */
 header .nav-color {
 	background-color: green !important;
 }
@@ -6,6 +8,12 @@ header .nav-text {
 	color: white !important;
 }
 
+.navbar-brand {
+	margin-right: 0px !important;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* Footer */
 footer .footer-color {
 	background-color: #1b1b1b !important;
 }

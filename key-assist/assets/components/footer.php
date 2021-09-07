@@ -2,7 +2,7 @@
 	<div class="container-fluid footer-color">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-12 col-md-6 col-lg-3 mt-lg-5 mt-md-5">
+				<div class="col-sm-12 col-md-6 col-lg-3 mt-5">
 					<h4 class="pb-3" >Find Us</h4>
 					<p>Key Assist<br />3 Axis Court<br />Mallard Way<br />Swansea<br />SA7 0AJ</p>
 				</div>

@@ -40,19 +40,25 @@ include('assets/components/head.php');
 				<div class="row pt-3">
 					<!-- Text -->
 					<div class="col-sm-12 col-md-6 pt-3">
-						<h1 class="display-5 fs-3 fw-bold"><?php echo $service->name; ?></h1>
+						<h1 class="display-5 fs-1 fw-bold"><?php echo $service->name; ?></h1>
 						<h1 class="display-6 fs-5 fw-bold text-tagline"><?php echo $service->tagline; ?></h1>
 						<p class="text-muted"><?php echo $service->description; ?></p>
+						<div class="text-center pt-3">
+							<h1 class="display-5 fs-4">Call Us Now:</h1>
+							<h1 class="display-6 fw-bold text-phone fs-4">03301 072349</h1>
+						</div>
 					</div>
 					<!-- Image -->
 					<div class="col-sm-12 col-md-6">
-						<img class="img-fluid" src="assets/img/car.png" alt="car">
+						<div class="car-img">
+							<img class="img-fluid" src="assets/img/car.png" alt="car">
+						</div>
 					</div>
 				</div>
 				<!-- Bullet Points -->
 				<div class="row pt-4">
 					<div class="row mt-2 mb-3">
-						<div class="col-sm-10 col-md-6 col-lg-6">
+						<div class="col-sm-10 col-md-6 col-lg-6 mb-3">
 							<h5>
 								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="green" class="bi bi-check-square-fill" viewBox="0 0 16 16">
 									<path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2h4zm10.03 4.97a.75.75 0 0 1 .011 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.75.75 0 0 1 1.08-.022z" />
@@ -60,7 +66,7 @@ include('assets/components/head.php');
 								<?php echo $service->point_1 ?>
 							</h5>
 						</div>
-						<div class="col-sm-10 col-md-6 col-lg-6">
+						<div class="col-sm-10 col-md-6 col-lg-6 mb-3">
 							<h5>
 								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="green" class="bi bi-check-square-fill" viewBox="0 0 16 16">
 									<path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2h4zm10.03 4.97a.75.75 0 0 1 .011 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.75.75 0 0 1 1.08-.022z" />
@@ -68,7 +74,7 @@ include('assets/components/head.php');
 								<?php echo $service->point_2 ?>
 							</h5>
 						</div>
-						<div class="col-sm-10 col-md-6 col-lg-6">
+						<div class="col-sm-10 col-md-6 col-lg-6 mb-3">
 							<h5>
 								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="green" class="bi bi-check-square-fill" viewBox="0 0 16 16">
 									<path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2h4zm10.03 4.97a.75.75 0 0 1 .011 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.75.75 0 0 1 1.08-.022z" />
@@ -76,7 +82,7 @@ include('assets/components/head.php');
 								<?php echo $service->point_3 ?>
 							</h5>
 						</div>
-						<div class="col-sm-10 col-md-6 col-lg-6">
+						<div class="col-sm-10 col-md-6 col-lg-6 mb-3">
 							<h5>
 								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="green" class="bi bi-check-square-fill" viewBox="0 0 16 16">
 									<path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2h4zm10.03 4.97a.75.75 0 0 1 .011 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.75.75 0 0 1 1.08-.022z" />
@@ -92,8 +98,8 @@ include('assets/components/head.php');
 		<!-- Card Section -->
 		<div class="container">
 			<div class="row">
-				<div class="col text-center">
-					<h1 class="display-5 fs-4"><?php echo $service->section_2_title ?></h1>
+				<div class="col text-center mt-3">
+					<h4><?php echo $service->section_2_title ?></h4>
 				</div>
 			</div>
 
@@ -101,13 +107,12 @@ include('assets/components/head.php');
 			<div class="row">
 				<?php
 				foreach ($service->card_title as $i => $value) {
-					echo '<div class="col-sm-12 col-md-6 col-lg-4"><div class="card" style="width: 18rem;"><div class="card-body">';
-					echo '<h5 class="card-title">' . $value . '</h5>';
+					echo '<div class="col-sm-12 col-md-6 col-lg-4 mb-5 mt-3"><div class="card" style="width: 18rem;">';
+					echo '<h5 class="pt-3 pb-3 text-center text-phone card-header">' . $value . '</h5><div class="card-body">';
 					echo '<p class="card-text">' . $service->card_text[$i] . '</p>';
 					echo '</div></div></div>';
 				}
 				?>
-
 			</div>
 		</div>
 
@@ -117,7 +122,7 @@ include('assets/components/head.php');
 				<div class="row pt-3">
 					<!-- Text -->
 					<div class="col">
-						<h1 class="display-5 fs-3 fw-bold"><?php echo $service->section_3_title; ?></h1>
+						<h4 class="mt-3 mb-3"><?php echo $service->section_3_title; ?></h4>
 						<p class="text-muted"><?php echo $service->section_3_text_top; ?></p>
 						<ul>
 							<?php
@@ -126,7 +131,7 @@ include('assets/components/head.php');
 							}
 							?>
 						</ul>
-						<p class="text-muted"><?php echo $service->section_3_text_bottom; ?></p>
+						<p class="text-muted mb-5"><?php echo $service->section_3_text_bottom; ?></p>
 					</div>
 				</div>
 			</div>
@@ -135,13 +140,13 @@ include('assets/components/head.php');
 		<!-- FAQ -->
 		<div class="container">
 			<div class="row">
-				<div class="col text-center">
-					<h1 class="display-5 fs-4">Frequently Asked Questions</h1>
+				<div class="col text-center mt-3">
+					<h4>Frequently Asked Questions</h4>
 				</div>
 			</div>
 
 			<!-- Cards -->
-			<div class="row">
+			<div class="row mt-3 mb-5">
 				<div class="col">
 					<div class="accordion" id="FAQ">
 						<div class="accordion-item">

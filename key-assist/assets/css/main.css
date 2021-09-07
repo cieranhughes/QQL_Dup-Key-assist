@@ -38,3 +38,7 @@ main .img-overlay {
 .text-tagline {
 	color: #5d4b77;
 }
+
+.car-img {
+	max-width: 400px;
+}

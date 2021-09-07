@@ -4,7 +4,7 @@
 		<div class="row pt-3">
 			<!-- Text -->
 			<div class="col">
-				<h1 class="display-5 fs-3 fw-bold"><?php echo $area->text[0]; ?></h1>
+				<h4 class="mt-3 mb-3"><?php echo $area->text[0]; ?></h4>
 				<p class="text-muted"><?php echo $area->text[1]; ?></p>
 				<ul>
 					<?php
@@ -13,8 +13,8 @@
 					}
 					?>
 				</ul>
-				<h1 class="display-5 fs-3 fw-bold"><?php echo $area->text[2]; ?></h1>
-				<p class="text-muted"><?php echo $area->text[3]; ?></p>
+				<h4 class="mt-3 mb-3"><?php echo $area->text[2]; ?></h4>
+				<p class="text-muted mb-5"><?php echo $area->text[3]; ?></p>
 			</div>
 		</div>
 	</div>

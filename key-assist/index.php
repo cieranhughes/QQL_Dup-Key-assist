@@ -98,7 +98,7 @@ include('./assets/components/head.php');
 
 			<!-- Cards -->
 			<div class="row">
-				<div class="col-sm-12 col-md-6 col-lg-4">
+				<div class="col-sm-12 col-md-6 col-lg-4 mb-3">
 					<div class="card text-center">
 						<div class="card-header">
 							<div class="row justify-content-center align-items-center">
@@ -126,7 +126,7 @@ include('./assets/components/head.php');
 					</div>
 				</div>
 
-				<div class="col-sm-12 col-md-6 col-lg-4">
+				<div class="col-sm-12 col-md-6 col-lg-4 mb-3">
 					<div class="card text-center">
 						<div class="card-header">
 							<div class="row justify-content-center align-items-center">
@@ -154,7 +154,7 @@ include('./assets/components/head.php');
 					</div>
 				</div>
 
-				<div class="col-sm-12 col-md-6 col-lg-4">
+				<div class="col-sm-12 col-md-6 col-lg-4 mb-3">
 					<div class="card text-center">
 						<div class="card-header">
 							<div class="row justify-content-center align-items-center">
@@ -182,7 +182,7 @@ include('./assets/components/head.php');
 					</div>
 				</div>
 
-				<div class="col-sm-12 col-md-6 col-lg-4">
+				<div class="col-sm-12 col-md-6 col-lg-4 mb-3">
 					<div class="card text-center">
 						<div class="card-header">
 							<div class="row justify-content-center align-items-center">
@@ -210,7 +210,7 @@ include('./assets/components/head.php');
 					</div>
 				</div>
 
-				<div class="col-sm-12 col-md-6 col-lg-4">
+				<div class="col-sm-12 col-md-6 col-lg-4 mb-3">
 					<div class="card text-center">
 						<div class="card-header">
 							<div class="row justify-content-center align-items-center">
@@ -238,7 +238,7 @@ include('./assets/components/head.php');
 					</div>
 				</div>
 
-				<div class="col-sm-12 col-md-6 col-lg-4">
+				<div class="col-sm-12 col-md-6 col-lg-4 mb-3">
 					<div class="card text-center">
 						<div class="card-header">
 							<div class="row justify-content-center align-items-center">
