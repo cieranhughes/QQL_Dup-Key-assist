@@ -28,11 +28,6 @@
 									}
 									mysqli_stmt_close($stmt);
 									?>
-
-									<li>
-										<hr class="dropdown-divider">
-									</li>
-									<li><a class="dropdown-item" href="#">View All Services</a></li>
 								</ul>
 							</li>
 							<li class="nav-item dropdown">
@@ -48,7 +43,7 @@
 									mysqli_stmt_execute($stmt);
 									$results = mysqli_stmt_get_result($stmt);
 									while ($r = mysqli_fetch_array($results)) {
-										echo '<li class="dropdown-item disabled">' . $r['name'] . '</li>';
+										echo '<li class="dropdown-item disabled fw-bold">' . $r['name'] . '</li>';
 
 										$sql2 = "SELECT area_id, name FROM `Area` WHERE country_id=?";
 										$stmt2 = mysqli_stmt_init($dbconnect);
@@ -64,11 +59,6 @@
 									mysqli_stmt_close($stmt);
 									mysqli_close($dbconnect);
 									?>
-
-									<li>
-										<hr class="dropdown-divider">
-									</li>
-									<li><a class="dropdown-item" href="#">Something else here</a></li>
 								</ul>
 							</li>
 						</ul>
