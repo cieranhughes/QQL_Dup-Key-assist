@@ -1,4 +1,10 @@
 <?php
+//See if logged in or redirect
+session_start();
+if (!isset($_SESSION['loggedin'])) {
+	header('Location: /admin/index.html');
+	exit();
+}
 
 //DB Connect
 include('../assets/config/db_connect.php');

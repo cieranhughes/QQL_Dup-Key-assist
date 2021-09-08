@@ -1,11 +1,18 @@
+<?php
+
+//See if logged in or redirect
+session_start();
+if (!isset($_SESSION['loggedin'])) {
+	header('Location: /admin/index.html');
+	exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <?php
 $page_title = 'Home';
-
-//Connection File
-// include('assets/config/db_connect.php');
 
 //Head
 include('./assets/components/head.php');
