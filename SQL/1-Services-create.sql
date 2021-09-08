@@ -1,21 +1,20 @@
 /*Create all services tables*/
-
- CREATE TABLE Services (
- service_id int NOT NULL AUTO_INCREMENT,
- name VARCHAR(100),
- longname VARCHAR(200),
- tagline VARCHAR(250),
- description VARCHAR(500),
- point_1 VARCHAR(500),
- point_2 VARCHAR(500),
- point_3 VARCHAR(500),
- point_4 VARCHAR(500),
- section_2_title VARCHAR(200),
- section_3_title VARCHAR(200),
- section_3_text_top VARCHAR(1000),
- section_3_text_bottom VARCHAR(1000),
- Constraint Services_PK PRIMARY KEY (service_id)
- );
+CREATE TABLE Services (
+	service_id int NOT NULL AUTO_INCREMENT,
+	name VARCHAR(100),
+	longname VARCHAR(200),
+	tagline VARCHAR(250),
+	description VARCHAR(500),
+	point_1 VARCHAR(500),
+	point_2 VARCHAR(500),
+	point_3 VARCHAR(500),
+	point_4 VARCHAR(500),
+	section_2_title VARCHAR(200),
+	section_3_title VARCHAR(200),
+	section_3_text_top VARCHAR(1000),
+	section_3_text_bottom VARCHAR(1000),
+	Constraint Services_PK PRIMARY KEY (service_id)
+);
 
 CREATE TABLE Services_Cards (
 	service_id int NOT NULL,
