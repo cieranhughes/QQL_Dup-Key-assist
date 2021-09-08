@@ -2,7 +2,7 @@
 <html lang="en">
 
 <?php
-$page_title = 'Home';
+$page_title = 'Add';
 
 //Connection File
 include('../assets/config/db_connect.php');
@@ -28,7 +28,7 @@ include('../assets/components/head.php');
 			</div>
 
 			<!-- Form -->
-			<form action="/admin/service/add-handler.php" method="POST">
+			<form action="./add-handler.php" method="POST">
 				<!-- General -->
 				<div class="row">
 					<div class="col">
@@ -212,7 +212,7 @@ include('../assets/components/head.php');
 				<div class="mb-3 row">
 					<label for="answer-3" class="col-sm-2 col-form-label"></label>
 					<div class=" mt-3 form-group d-grid gap-2 col-sm-6 col-md-8 col-lg-4">
-						<input class="btn btn-primary" name="submit" type="submit" value="Send">
+						<input class="btn btn-primary" name="submit" type="submit" value="Add">
 					</div>
 				</div>
 

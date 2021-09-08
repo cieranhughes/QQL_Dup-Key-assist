@@ -15,7 +15,7 @@ if (isset($_POST['submit'])) {
 		$success = 'success';
 	} else {
 		$success = 'error';
-		header('Location: /admin/service/add.php?success=' . $success);
+		header('Location: ./add.php?success=' . $success);
 	}
 
 	$sql = "SELECT service_id FROM Services WHERE name=?";
@@ -33,7 +33,7 @@ if (isset($_POST['submit'])) {
 		$success = 'success';
 	} else {
 		$success = 'error';
-		header('Location: /admin/service/add.php?success=' . $success);
+		header('Location: ./add.php?success=' . $success);
 	}
 
 	$sql = "INSERT INTO Services_Cards(service_id, title, text) VALUES(?,?,?)";
@@ -47,7 +47,7 @@ if (isset($_POST['submit'])) {
 		$success = 'success';
 	} else {
 		$success = 'error';
-		header('Location: /admin/service/add.php?success=' . $success);
+		header('Location: ./add.php?success=' . $success);
 	}
 
 	$sql = "INSERT INTO Services_Cards(service_id, title, text) VALUES(?,?,?)";
@@ -61,7 +61,7 @@ if (isset($_POST['submit'])) {
 		$success = 'success';
 	} else {
 		$success = 'error';
-		header('Location: /admin/service/add.php?success=' . $success);
+		header('Location: ./add.php?success=' . $success);
 	}
 
 	$sql = "INSERT INTO Services_Cards(service_id, title, text) VALUES(?,?,?)";
@@ -75,7 +75,7 @@ if (isset($_POST['submit'])) {
 		$success = 'success';
 	} else {
 		$success = 'error';
-		header('Location: /admin/service/add.php?success=' . $success);
+		header('Location: ./add.php?success=' . $success);
 	}
 
 	$sql = "INSERT INTO Services_FAQ(service_id, question, answer) VALUES(?,?,?)";
@@ -89,7 +89,7 @@ if (isset($_POST['submit'])) {
 		$success = 'success';
 	} else {
 		$success = 'error';
-		header('Location: /admin/service/add.php?success=' . $success);
+		header('Location: ./add.php?success=' . $success);
 	}
 
 	$sql = "INSERT INTO Services_FAQ(service_id, question, answer) VALUES(?,?,?)";
@@ -103,7 +103,7 @@ if (isset($_POST['submit'])) {
 		$success = 'success';
 	} else {
 		$success = 'error';
-		header('Location: /admin/service/add.php?success=' . $success);
+		header('Location: ./add.php?success=' . $success);
 	}
 
 	$sql = "INSERT INTO Services_FAQ(service_id, question, answer) VALUES(?,?,?)";
@@ -117,11 +117,11 @@ if (isset($_POST['submit'])) {
 		$success = 'success';
 	} else {
 		$success = 'error';
-		header('Location: /admin/service/add.php?success=' . $success);
+		header('Location: ./add.php?success=' . $success);
 	}
 	
 	mysqli_close($dbconnect);
 
-	header('Location: /admin/service/add.php?success=' . $success);
+	header('Location: ./add.php?success=' . $success);
 
 }

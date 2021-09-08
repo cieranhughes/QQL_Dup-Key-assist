@@ -14,7 +14,7 @@ if (mysqli_affected_rows($dbconnect) >= 0) {
 	$success = 'success';
 } else {
 	$success = 'error';
-	header('Location: /admin/service/edit.php?success=' . $success);
+	header('Location: ./edit.php?success=' . $success);
 }
 
 $sql = "DELETE FROM Services_Cards WHERE service_id=?;";
@@ -28,7 +28,7 @@ if (mysqli_affected_rows($dbconnect) >= 0) {
 	$success = 'success';
 } else {
 	$success = 'error';
-	header('Location: /admin/service/edit.php?success=' . $success);
+	header('Location: ./edit.php?success=' . $success);
 }
 
 $sql = "DELETE FROM Services_FAQ WHERE service_id=?;";
@@ -42,7 +42,7 @@ if (mysqli_affected_rows($dbconnect) >= 0) {
 	$success = 'success';
 } else {
 	$success = 'error';
-	header('Location: /admin/service/edit.php?success=' . $success);
+	header('Location: ./edit.php?success=' . $success);
 }
 
 $sql = "DELETE FROM Services WHERE service_id=?;";
@@ -56,8 +56,8 @@ mysqli_stmt_close($stmt);
 
 if (mysqli_affected_rows($dbconnect) >= 0) {
 	$success = 'success';
-	header('Location: /admin/service/edit.php?success=' . $success);
+	header('Location: ./edit.php?success=' . $success);
 } else {
 	$success = 'error';
-	header('Location: /admin/service/edit.php?success=' . $success);
+	header('Location: ./edit.php?success=' . $success);
 }
