@@ -100,7 +100,7 @@ VALUES
 	(4, 2, "Door locking system broken"),
 	(4, 2, "Door handle stuck"),
 	(4, 2, "Key snapped in lock/ignition"),
-	(4, 2, "Need a replacement key"),
+	(4, 2, "Need a replacement key");
 	/* --------------------------------------------------------------------- */
 	/* Section Info - Bristol */
 	/* --------------------------------------------------------------------- */

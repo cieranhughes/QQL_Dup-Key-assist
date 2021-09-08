@@ -127,7 +127,7 @@ VALUES
 		"At Key Assist, we cover all Boroughs of London, whether you're stranded in Central Croydon or it's surrounding areas. Below is a list of areas our locksmiths can travel to in Croydon:"
 	),
 	(
-		2,
+		5,
 		1,
 		"p",
 		"If your local area or the place in which you are stranded is not listed above, don't worry, we can still help you gain entry to your vehicle and get back on the road as soon as possible. Call us now to find an auto locksmith near you."
@@ -139,7 +139,7 @@ VALUES
 		"Locksmith prices in Croydon"
 	),
 	(
-		2,
+		5,
 		1,
 		"p",
 		"Locksmith prices can differ quite a lot across the UK, and the price will always depend on the locksmith service that is required, the extent of the problem and any damage, whether or not you will need your locks and keys repaired or replaced and the type of vehicle you have. We offer some of the most competitive prices in London, so call us now for an instant free quote, obligation-free, and let us help you gain access to your vehicle at an affordable cost."

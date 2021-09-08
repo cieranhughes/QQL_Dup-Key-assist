@@ -146,4 +146,4 @@ VALUES
 		1,
 		"p",
 		"How much an emergency locksmith costs in your local area in Glasgow will all depend on the service you require and how complex the problem is. Luckily, our locksmiths have the knowledge and experience to determine the problem and get it sorted for you as soon as possible, at an affordable price. Call us now for an obligation-free quote to find out more about locksmith prices and the services we can help you with!"
-	),
+	);
