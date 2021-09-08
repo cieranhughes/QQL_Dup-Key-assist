@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/cieranhu/public_html/key-assist
+    - export DEPLOYPATH=/home/cieranhu/public_html/key-assist/
     - /bin/cp favicon.ico $DEPLOYPATH
     - /bin/cp index.php $DEPLOYPATH
     - /bin/cp area.php $DEPLOYPATH
