@@ -37,7 +37,6 @@ mysqli_close($dbconnect);
 								<div class="col-12">
 									<p>You account has sucessfully been added.</p>
 									<p>Go back to the <a href="index.html">Login Page</a> and login. </p>
-									<p><?php echo $_POST['username'] . $pword; ?></p>
 								</div>
 							</div>
 						</div>
