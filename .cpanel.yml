@@ -2,8 +2,8 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/cieranhu/public_html/key-assist/
-    - /bin/cp /home/repositories/QQL_Dup-Key-assist/key-assist/favicon.ico $DEPLOYPATH
-    - /bin/cp /home/repositories/QQL_Dup-Key-assist/key-assist/index.php $DEPLOYPATH
-    - /bin/cp /home/repositories/QQL_Dup-Key-assist/key-assist/area.php $DEPLOYPATH
-    - /bin/cp /home/repositories/QQL_Dup-Key-assist/key-assist/services.php $DEPLOYPATH
-    - /bin/cp -R /home/repositories/QQL_Dup-Key-assist/key-assist/assets $DEPLOYPATH
+    - /bin/cp /home/cieranhu/repositories/QQL_Dup-Key-assist/key-assist/favicon.ico $DEPLOYPATH
+    - /bin/cp /home/cieranhu/repositories/QQL_Dup-Key-assist/key-assist/index.php $DEPLOYPATH
+    - /bin/cp /home/cieranhu/repositories/QQL_Dup-Key-assist/key-assist/area.php $DEPLOYPATH
+    - /bin/cp /home/cieranhu/repositories/QQL_Dup-Key-assist/key-assist/services.php $DEPLOYPATH
+    - /bin/cp -R /home/cieranhu/repositories/QQL_Dup-Key-assist/key-assist/assets $DEPLOYPATH
